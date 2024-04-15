@@ -69,7 +69,7 @@
             <td><?php echo $row['age']; ?></td>
             <td>
                 <a href="edit_enroll.php?id=<?php echo $row['id']; ?>">Edit</a>
-                <a href="delete_enroll.php?id=<?php echo $row['id']; ?>">Del</a>
+                <a href="students_enroll_delete.php?id=<?php echo $row['id']; ?>">Del</a>
             </td>
         </tr>
         <?php
